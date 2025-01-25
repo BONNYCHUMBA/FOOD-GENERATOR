@@ -1,0 +1,161 @@
+body{
+    background: url(fire-1712742_960_720.jpg) no-repeat black ;
+    color: white;
+    overflow: hidden;
+    background-size: cover;
+}
+.head{
+    position: absolute;
+    top: 0%;
+    left: 0pc;
+    right: 0pc;
+    bottom :45px;
+    text-align: center;
+    font-size: x-large;
+    text-shadow: 3px gold;
+   
+}
+.animation{
+
+    position: absolute;
+    top: -130px;
+    left: 0pc;
+    
+    
+}
+.bar{  
+    width: 45px;
+    height: 6px;
+    background-color: white;
+    margin: 6px 0px;
+}
+.bars{
+    display: block;
+    position: absolute;
+    right: 20px;
+    padding-top:20px;
+    cursor: pointer;
+}
+.bars:hover .bar{
+    background-color: orangered;
+}   
+.bars:active .bar{
+    background-color: rgb(3, 223, 3);
+}
+.fact{
+    display: block;
+    position:absolute;
+    text-align: center;
+    bottom: 30%;
+    left: 50%;
+    width: 40%;
+    font-size: x-large;
+    font-weight: 670;
+    color: rgb(226, 152, 15);
+   
+}
+.BUTTON{
+    position: absolute;
+    bottom: 16%;
+    right: 24%;
+    display: block;
+}
+.button{
+    display: block;
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: large;
+    background-color: darkorange;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:orangered;
+    color: black ;
+}
+.button:active{
+    background-color:rgb(3, 223, 3);
+}    
+.D3{
+    position:absolute;
+    display:block ;
+    top: 102px;
+    left: 0%;   
+    width: 40%;
+    height: 100%;
+    
+}
+.hidden{
+    display: none;
+}
+.fact-2{
+    display: block;
+    position:absolute;
+    text-align: center;
+    bottom: 25%;
+    left: 7%;
+    width: 40%;
+    font-size: x-large;
+    font-weight: 670;
+    color: rgb(226, 152, 15);
+}
+.D3-2{
+    position: absolute;
+    display:block ;
+    top: 102px;
+    right: -4.6%;  
+    width: 59%;
+    height: 100%;
+    z-index: -1;
+
+}
+.generator{
+    display: block;
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: large;
+    background-color: darkorange;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: -30%;
+    left: 30%;
+
+}
+.generator:hover{
+    background-color:orangered;
+    color: black ;
+}
+.generator:active{
+    background-color:rgb(3, 223, 3);
+}
+.hidden-2{
+    display: none;
+}    
+.re_run{
+    display: block;
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: large;
+    background-color: darkorange;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
+.re_run:hover{
+    background-color:orangered;
+    color: black ;
+}
+.re_run:active{
+    background-color:rgb(3, 223, 3);
+}
+.AI{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}

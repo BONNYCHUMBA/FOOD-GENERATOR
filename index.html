@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELL'S KITCHEN</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://sketchfab.com/models/85b3feaff5d24549aada7e9fda948ae1/embed?autostart=1&preload=1&transparent=1&ui_hint=0&ui_theme=dark">
+    <link rel="shortcut icon" href="Pictogrammers-Material-Fire.512.png" type="image/x-icon">
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
+
+</head>
+<body>
+    <!--main page -->
+                <!--HEADER-->
+    <section>
+                                    <!--fire-animation-->
+        <div class="animation">
+            <dotlottie-player src="https://lottie.host/90403aeb-43f7-4aae-8164-51ff9857421e/Le4c6wCQtB.lottie"
+                background="transparent"
+                speed="1" 
+                style="width: 230px; height: 230px" 
+                loop
+                autoplay>
+            </dotlottie-player>
+        </div>
+                                    <!--welcome-text-->
+        <div class="head">
+           <p style="padding-bottom: 12px; padding-top: 12px;" > WELCOME TO <u><b>YOUR</b></u> KITCHEN </p>
+           <hr>
+        </div>
+                                    <!--sandwitch-bar-->
+        <div class="bars">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+    </section>
+    
+                <!--BODY-->
+    <section class="AA">
+                                     <!--TEXT-->
+        <div class="fact">
+            <p>Food is a fascinating subject that goes beyond mere sustenance. Did you know that honey is the only food that never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible! Another intriguing fact is that apples float in water because they are made up of 25% air. And let's not forget the world's most expensive coffee, Kopi Luwak, which is made using beans that have been eaten and excreted by a civet cat. Food is not just about taste; it's a blend of history, science, and culture that makes every bite an adventure.</p>
+        </div>
+                                     <!--BUTTONS-->
+        <div class="BUTTON">
+            <button class="button" onclick="tform()">LET'S COOK</button>
+        </div>
+        <!--3D ANIMATION-->
+        <div class="D3">
+            <div class="sketchfab-embed-wrapper"> <iframe title="Comfy Kitchen" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="740" height="580" src="https://sketchfab.com/models/85b3feaff5d24549aada7e9fda948ae1/embed?autostart=1&preload=1&transparent=1&ui_hint=0&ui_theme=dark"> </iframe> </div>
+        </div>
+    </section>
+
+             <!--HIDDEN PART UNTIL BUTTON IS CLICKED-->
+    <SECtion class="hidden">
+
+                                    <!--INPUT-->
+       <div class="fact-2">
+            <P><u>UGALI</u> is a staple food in Kenya and is enjoyed by many communities across the country? Made from maize flour and water, this simple yet versatile dish is often served with vegetables, meat, or fish. Ugali holds a special place in Kenyan culture, symbolizing unity and tradition. It's not just a meal; it's a way of life that brings families and communities together around the dining table. 🍲🇰🇪</P>
+            <button class="generator" onclick="generate_food()">GENRATE FOOD</button>
+       </div>
+
+                                <!--3D ANIMATION-->
+       <div class="D3-2">
+
+        <div class="sketchfab-embed-wrapper"> <iframe title="Mexican Tulum Burger" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="728" height="544" src="https://sketchfab.com/models/a66e5e28f12742b7a407a17d70c4037c/embed?autospin=1&autostart=1&transparent=1&ui_hint=0&ui_theme=dark"> </iframe> </div>
+
+       </div>                             
+
+
+    </SECtion>
+
+            <!--RESULTS-->
+
+    <section class="hidden-2">
+                                <!--text-->
+        <div>
+            <P style="font-size: xxx-large;font-weight: 900; color: gold;position: absolute;top: 30%;left: 20%;letter-spacing: 3px;" >
+                THE FOOD OF TODAY IS...:
+            </P>
+        </div>
+        <u>
+            <p style="font-size: xxx-large;font-weight: 900; color: gold;position: absolute;top: 50%;left: 20%;letter-spacing: 3px;" id="food">
+
+            </p>
+        </u>
+        <button class="re_run" onclick="re_run()">
+            RE-RUN
+        </button>
+
+                                <!--AI CHATBOT-->
+          <div class="AI">
+            <iframe
+                src="https://www.chatbase.co/chatbot-iframe/O2I80hPrxWru2Oyr84SzG"
+                width="100%"
+                style="height: 100%; min-height: 610px"
+                frameborder="0"
+            ></iframe>
+          </div>                      
+
+
+     </section>
+    <script src="index.js"></script>
+</body>
+</html>
